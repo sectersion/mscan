@@ -1,0 +1,23 @@
+{
+    "name": "mscan",
+    "type": "module",
+    "main": "mscan.js",
+    "exports": {
+        "reset()": "./mscan/bot.js"
+    },
+    "version": "1.0.0",
+    "description": "A minecraft server scanner designed for greifing.",
+    "dependencies": {
+        "axios": "^1.8.4",
+        "discord.js": "^14.18.0",
+        "dotenv": "^16.4.7",
+        "mcraft-fun-mineflayer": "~0.1.14",
+        "minecraft-protocol": "~1.54.0",
+        "mineflayer": "~4.26.0"
+    },
+    "scripts": {
+        "test": "echo Who knows?"
+    },
+    "author": "SecterSion",
+    "license": "ISC"
+}
